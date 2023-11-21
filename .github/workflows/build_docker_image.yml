@@ -5,8 +5,9 @@ on:
 #    tags:
 #      - '**'
     paths:
-      - 'assignments/**'
+      - '.devcontainer/**'
       - '.github/workflows/*.yml'
+      - 'requirements.txt'
 
 jobs:
   build:
@@ -20,16 +21,14 @@ jobs:
       -
         run: sudo npm install -g @devcontainers/cli
       -
-#        name: Login to Docker Hub
-#        uses: docker/login-action@v3
-#        with:
-#          username: ${{ secrets.DOCKERHUB_USERNAME }}
-#          password: ${{ secrets.DOCKERHUB_TOKEN }}
+        name: Build image
+        run: devcontainer build --workspace-folder . --image-name ${{ github.repository }}
+      -
+        name: Login to registry (Docker Hub)
         run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
       -
-#        run: devcontainer build --workspace-folder . --push true --image-name kostrykin/mobi-devcontainer-python
-        run: devcontainer build --workspace-folder . --image-name kostrykin/mobi-devcontainer-python
+        name: Deploy image to registry
+        run: docker push ${{ github.repository }}
       -
-        run: docker push kostrykin/mobi-devcontainer-python
-      -
+        name: Logout from registry
         run: docker logout
