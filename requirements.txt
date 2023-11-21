@@ -1,0 +1,7 @@
+matplotlib>=3
+numpy
+scipy
+scikit-image
+tifffile
+pillow
+ipykernel
