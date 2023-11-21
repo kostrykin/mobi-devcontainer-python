@@ -2,8 +2,11 @@ name: Build docker image and push to Docker Hub
 
 on:
   push:
-    tags:
-      - '**'
+#    tags:
+#      - '**'
+    paths:
+      - 'assignments/**'
+      - '.github/workflows/*.yml'
 
 jobs:
   build:
@@ -21,4 +24,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
         #run: devcontainer build --workspace-folder . --push true --image-name
-        run: devcontainer build --workspace-folder . --image-name kostrykin/mobi-fs3-python
+        run: devcontainer build --workspace-folder . --image-name kostrykin/mobi-devcontainer-python
