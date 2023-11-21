@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -
-	name: Initialize
+        name: Initialize
         uses: actions/checkout@v2
       -
         run: sudo apt install nodejs
