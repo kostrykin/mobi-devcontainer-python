@@ -11,7 +11,9 @@ This repository builds a Docker image for Python classes <https://github.com/BMC
 - Packages specified in `ingredients/requirements.txt`
 
 **Using the image:**
-Use the image `docker.io/kostrykin/mobi-devcontainer-python:<TAG>"` in `devcontainer.json`, where you replace `<TAG>` by a [valid tag](https://github.com/kostrykin/mobi-devcontainer-python/tags). See `.devcontainer/devcontainer.json` for an example.
+- Use the image `docker.io/kostrykin/mobi-devcontainer-python:<TAG>"` in `devcontainer.json`.
+- Replace `<TAG>` by a [valid tag](https://github.com/kostrykin/mobi-devcontainer-python/tags).
+- See `.devcontainer/devcontainer.json` for an example.
 
 **Resources:**
 - <https://containers.dev/guide/prebuild>
