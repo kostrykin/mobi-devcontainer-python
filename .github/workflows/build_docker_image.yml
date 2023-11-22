@@ -16,7 +16,9 @@ jobs:
         name: Initialize
         uses: actions/checkout@v2
       -
-        run: sudo apt install nodejs
+        run: |
+          sudo apt update
+          sudo apt install nodejs
       -
         run: sudo npm install -g @devcontainers/cli
       -
