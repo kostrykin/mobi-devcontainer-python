@@ -2,11 +2,11 @@ name: Build docker image and push to Docker Hub
 
 on:
   push:
-#    tags:
-#      - '**'
-    paths:
-      - 'ingredients/**'
-      - '.github/workflows/*.yml'
+    tags:
+      - '**'
+#    paths:
+#      - 'ingredients/**'
+#      - '.github/workflows/*.yml'
 
 jobs:
   build:
