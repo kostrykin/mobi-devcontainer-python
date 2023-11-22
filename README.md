@@ -5,6 +5,11 @@
 
 This repository builds a Docker image for Python classes <https://github.com/BMCV/mobi-fs3-python>.
 
-Resources:
+**The built image provides:**
+- Python 3.11
+- VS Code with `ms-toolsai.jupyter` extension
+- Packages specified in `ingredients/requirements.txt`
+
+**Resources:**
 - <https://containers.dev/guide/prebuild>
 - <https://github.com/microsoft/vscode-dev-containers/blob/main/containers/python-3/.devcontainer/devcontainer.json>
