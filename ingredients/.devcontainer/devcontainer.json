@@ -5,9 +5,6 @@
     "context": ".."
   },
   "customizations": {
-    "codespaces": {
-      "openFiles": []
-    },
     "vscode": {
       "extensions": [
         "ms-toolsai.jupyter"
