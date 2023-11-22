@@ -1,7 +1,9 @@
 {
   "name": "Methoden der Bioinformatik, Docker image for Python",
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "onCreateCommand": "python3 -m pip install -r requirements.txt",
+  "build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
   "customizations": {
     "codespaces": {
       "openFiles": []
