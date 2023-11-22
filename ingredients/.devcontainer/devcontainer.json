@@ -1,7 +1,8 @@
 {
   "name": "Methoden der Bioinformatik, Docker image for Python",
   "build": {
-    "dockerfile": "../Dockerfile"
+    "dockerfile": "../Dockerfile",
+    "context": ".."
   },
   "customizations": {
     "codespaces": {
