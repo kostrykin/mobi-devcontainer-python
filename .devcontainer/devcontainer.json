@@ -1,3 +1,8 @@
 {
-  "image": "docker.io/kostrykin/mobi-devcontainer-python:2023.1"
+  "image": "docker.io/kostrykin/mobi-devcontainer-python:2023.1",
+  "customizations": {
+    "codespaces": {
+      "openFiles": []
+    }
+  }
 }
