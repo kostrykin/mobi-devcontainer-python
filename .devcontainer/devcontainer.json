@@ -1,4 +1,3 @@
 {
-  "image": "docker.io/kostrykin/mobi-devcontainer-python:2023.1"/*,
-  "initializeCommand": "docker system prune --all --force"*/
+  "image": "docker.io/kostrykin/mobi-devcontainer-python:2023.1"
 }
