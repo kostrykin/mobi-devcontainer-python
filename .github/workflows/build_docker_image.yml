@@ -5,9 +5,8 @@ on:
 #    tags:
 #      - '**'
     paths:
-      - '.devcontainer/**'
+      - 'ingredients/**'
       - '.github/workflows/*.yml'
-      - 'requirements.txt'
 
 jobs:
   build:
