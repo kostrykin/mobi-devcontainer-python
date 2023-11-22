@@ -1,5 +1,7 @@
 {
-  "image": "docker.io/kostrykin/mobi-devcontainer-python:latest"/*,
+  "image": "mcr.microsoft.com/devcontainers/universal:2"
+  /*
+  "image": "docker.io/kostrykin/mobi-devcontainer-python:latest",
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
   "postCreateCommand": "",
