@@ -1,3 +1,5 @@
 FROM mcr.microsoft.com/devcontainers/python:3.11-bullseye
 
-RUN python3 -m pip --disable-pip-version-check --no-cache-dir install -r ../requirements.txt
+COPY requirements.txt /tmp/pip-tmp/
+RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requirements.txt
+RUN rm -rf /tmp/pip-tmp
