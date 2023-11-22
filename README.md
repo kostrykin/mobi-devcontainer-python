@@ -3,6 +3,8 @@
 
 # [Methoden der Bioinformatik, Docker image for Python]()
 
-This repository is used to build a Docker image for Python classes used in <https://github.com/BMCV/mobi-fs3-python>.
+This repository builds a Docker image for Python classes <https://github.com/BMCV/mobi-fs3-python>.
 
-See also: <https://containers.dev/guide/prebuild>
+Resources:
+- <https://containers.dev/guide/prebuild>
+- <https://github.com/microsoft/vscode-dev-containers/blob/main/containers/python-3/.devcontainer/devcontainer.json>
