@@ -1,8 +1,6 @@
 {
   "image": "docker.io/kostrykin/mobi-devcontainer-python:latest",
-  "hostRequirements": {
-  	"storage": "32gb"
-  }
+  "initializeCommand": "docker system prune --all --force"
   /*
   "image": "docker.io/kostrykin/mobi-devcontainer-python:latest",
   "waitFor": "onCreateCommand",
