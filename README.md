@@ -10,6 +10,9 @@ This repository builds a Docker image for Python classes <https://github.com/BMC
 - VS Code with `ms-toolsai.jupyter` extension
 - Packages specified in `ingredients/requirements.txt`
 
+**Using the image:**
+Use the image `docker.io/kostrykin/mobi-devcontainer-python:<TAG>"` in `devcontainer.json`, where you replace `<TAG>` by a [valid tag](https://github.com/kostrykin/mobi-devcontainer-python/tags). See `.devcontainer/devcontainer.json` for an example.
+
 **Resources:**
 - <https://containers.dev/guide/prebuild>
 - <https://github.com/microsoft/vscode-dev-containers/blob/main/containers/python-3/.devcontainer/devcontainer.json>
