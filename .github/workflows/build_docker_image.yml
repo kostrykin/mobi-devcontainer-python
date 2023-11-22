@@ -21,13 +21,13 @@ jobs:
         run: sudo npm install -g @devcontainers/cli
       -
         name: Build image
-        run: devcontainer build --workspace-folder ingredients --image-name ${{ github.repository }}
+        run: devcontainer build --workspace-folder ingredients --image-name ${{ github.repository }}:${{ github.ref_name }}
       -
         name: Login to registry (Docker Hub)
         run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
       -
         name: Deploy image to registry
-        run: docker push ${{ github.repository }}
+        run: docker push ${{ github.repository }}:${{ github.ref_name }}
       -
         name: Logout from registry
         run: docker logout

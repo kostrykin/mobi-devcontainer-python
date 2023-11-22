@@ -1,24 +1,4 @@
 {
-  "image": "docker.io/kostrykin/mobi-devcontainer-python:latest",
+  "image": "docker.io/kostrykin/mobi-devcontainer-python:2023.1",
   "initializeCommand": "docker system prune --all --force"
-  /*
-  "image": "docker.io/kostrykin/mobi-devcontainer-python:latest",
-  "waitFor": "onCreateCommand",
-  "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "",
-  "customizations": {
-    "codespaces": {
-      "openFiles": []
-    },
-    "vscode": {
-      "extensions": [
-    	"ms-python.python",
-        "ms-toolsai.jupyter"
-      ],
-      "settings": {
-        "python.linting.pylintEnabled": null
-      }
-    }
-  }
-*/
 }
