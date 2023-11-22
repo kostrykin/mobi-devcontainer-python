@@ -1,7 +1,7 @@
 {
   "image": "docker.io/kostrykin/mobi-devcontainer-python:latest",
   "hostRequirements": {
-  	"storage": "64gb"
+  	"storage": "32gb"
   }
   /*
   "image": "docker.io/kostrykin/mobi-devcontainer-python:latest",
