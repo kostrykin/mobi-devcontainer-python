@@ -4,9 +4,8 @@ on:
   push:
     tags:
       - '**'
-#    paths:
-#      - 'ingredients/**'
-#      - '.github/workflows/*.yml'
+    branches:
+      - 'test*'
 
 jobs:
   build:
