@@ -22,3 +22,4 @@ Dotfiles `**/.*` are hidden in the VS Code file manager.
 **Resources:**
 - <https://containers.dev/guide/prebuild>
 - <https://github.com/microsoft/vscode-dev-containers/blob/main/containers/python-3/.devcontainer/devcontainer.json>
+- <https://code.visualstudio.com/docs/devcontainers/devcontainer-cli#_prebuilding>
