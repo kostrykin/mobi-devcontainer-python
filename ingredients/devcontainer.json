@@ -13,6 +13,7 @@
         "python.defaultInterpreterPath": "/usr/local/bin/python",
         "notebook.kernelPicker.type": "all",
         "jupyter.kernels.filter": [
+          // This is a list of kernels to be filtered out, not included:
           {
             "path": "/usr/bin/python3",
             "type": "pythonEnvironment"
