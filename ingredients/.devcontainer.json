@@ -21,7 +21,9 @@
         ],
         "files.exclude": {
           "**/.*": true
-        }
+        },
+        "python.linting.enabled": false,
+        "python.linting.pylintEnabled": false
       }
     }
   }

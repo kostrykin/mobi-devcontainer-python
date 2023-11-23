@@ -10,7 +10,7 @@ This repository builds a Docker image for [Molecular Biotechnology Python Lesson
 - VS Code with `ms-toolsai.jupyter` extension
 - Packages specified in `ingredients/requirements.txt` installed for Python 3.11
 
-Dotfiles `**/.*` are hidden in the VS Code file manager.
+Dotfiles `**/.*` are hidden in the VS Code file manager. Pylance is disabled.
 
 **Using the image:**
 - Use the image `docker.io/kostrykin/mobi-devcontainer-python:<TAG>"` in `devcontainer.json`.
