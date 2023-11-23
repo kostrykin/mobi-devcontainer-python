@@ -11,14 +11,15 @@
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "notebook.kernelPicker.type": "all",
         "jupyter.kernels.filter": [
           {
-            "path": "/usr/local/bin/python"
+            "path": "/usr/local/bin/python",
+            "type": "pythonEnvironment"
           }
         ],
         "files.exclude": {
-          ".*/": true,
-          ".*": true
+          "**/.*": true
         }
       }
     }
