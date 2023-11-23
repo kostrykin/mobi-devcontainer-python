@@ -1,8 +1,8 @@
 {
   "name": "Methoden der Bioinformatik, Docker image for Python",
   "build": {
-    "dockerfile": "../Dockerfile",
-    "context": ".."
+    "dockerfile": "Dockerfile",
+    "context": "."
   },
   "customizations": {
     "vscode": {

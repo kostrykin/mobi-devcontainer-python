@@ -23,7 +23,7 @@ jobs:
         run: sudo npm install -g @devcontainers/cli
       -
         name: Build image
-        run: devcontainer build --workspace-folder ingredients --image-name ${{ github.repository }}:${{ github.ref_name }}
+        run: devcontainer build --workspace-folder ingredients/devcontainer.json --image-name ${{ github.repository }}:${{ github.ref_name }}
       -
         name: Login to registry (Docker Hub)
         run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
