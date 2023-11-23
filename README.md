@@ -6,9 +6,11 @@
 This repository builds a Docker image for [Molecular Biotechnology Python Lessons](https://github.com/users/kostrykin/projects/4).
 
 **The built image provides:**
-- Python 3.11
+- Python 3.9 and 3.11 (3.9 selected as default Jupyter kernel)
 - VS Code with `ms-toolsai.jupyter` extension
 - Packages specified in `ingredients/requirements.txt`
+
+**FIXME:** Why is 3.9 and not 3.11 selected by default?
 
 **Using the image:**
 - Use the image `docker.io/kostrykin/mobi-devcontainer-python:<TAG>"` in `devcontainer.json`.
