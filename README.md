@@ -10,6 +10,8 @@ This repository builds a Docker image for [Molecular Biotechnology Python Lesson
 - VS Code with `ms-toolsai.jupyter` extension
 - Packages specified in `ingredients/requirements.txt`
 
+Dotfiles `**/.*` are hidden in the VS Code file manager.
+
 **FIXME:** Why is 3.9 and not 3.11 selected by default?
 
 **Using the image:**
