@@ -14,7 +14,7 @@
         "notebook.kernelPicker.type": "all",
         "jupyter.kernels.filter": [
           {
-            "path": "/usr/local/bin/python",
+            "path": "/usr/bin/python3",
             "type": "pythonEnvironment"
           }
         ],
