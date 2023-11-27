@@ -20,7 +20,8 @@
           }
         ],
         "files.exclude": {
-          "**/.*": true
+          "**/.*": true,
+          "**/*.md": true
         },
         "python.linting.enabled": false,
         "python.linting.pylintEnabled": false
