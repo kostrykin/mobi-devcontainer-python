@@ -25,9 +25,8 @@
         },
         "python.linting.enabled": false,
         "python.linting.pylintEnabled": false,
-        "python.analysis.ignore": [
-          "*"
-        ]
+        "python.analysis.ignore": ["*"],
+        "python.analysis.exclude": ["*"]
       }
     }
   }
