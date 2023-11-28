@@ -9,6 +9,7 @@ This repository builds a Docker image for [Molecular Biotechnology Python Lesson
 - Python 3.9 and 3.11 (3.11 selected as default Jupyter kernel)
 - VS Code with `ms-toolsai.jupyter` extension
 - Packages specified in `ingredients/requirements.txt` installed for Python 3.11
+- Substitute for `%pylab` which imports `numpy` and `matplotlib.pyplot` into the global namespace and omits the deprection warning produced by the original `%pylab` instruction
 
 Dotfiles `**/.*` and Markdown files `**/*.md` are hidden in the VS Code file manager. Pylance is disabled.
 
