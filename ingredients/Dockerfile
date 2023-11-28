@@ -6,3 +6,4 @@ RUN rm -rf /tmp/pip-tmp
 
 WORKDIR /home/vscode/.ipython/profile_default/startup
 ADD substitute_pylab.ipy .
+RUN chown -R vscode:vscode /home/vscode/.ipython
