@@ -3,6 +3,11 @@
   "customizations": {
     "codespaces": {
       "openFiles": []
+    },
+    "vscode": {
+      "settings": {
+        "python.languageServer": "None"
+      }
     }
   }
 }
