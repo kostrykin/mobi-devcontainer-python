@@ -1,0 +1,11 @@
+if __name__ == '__main__':
+    from IPython.core import magic
+
+    @magic.register_line_magic
+    def pylab(*args):
+        import numpy as np
+        import matplotlib.pyplot as plt
+        globals().update(np.__dict__)
+        globals().update(plt.__dict__)
+
+    del pylab
