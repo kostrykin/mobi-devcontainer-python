@@ -24,7 +24,8 @@
           "**/*.md": true
         },
         "python.linting.enabled": false,
-        "python.linting.pylintEnabled": false
+        "python.linting.pylintEnabled": false,
+        "python.languageServer": "None"
       }
     }
   }
