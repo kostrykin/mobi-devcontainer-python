@@ -4,6 +4,7 @@
     "dockerfile": "Dockerfile",
     "context": "."
   },
+  "waitFor": "postCreateCommand",
   "customizations": {
     "vscode": {
       "extensions": [
