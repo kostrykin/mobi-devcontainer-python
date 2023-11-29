@@ -1,5 +1,5 @@
 {
-  "image": "docker.io/kostrykin/mobi-devcontainer-python:test2",
+  "image": "docker.io/kostrykin/mobi-devcontainer-python:test_waitFor",
   "customizations": {
     "codespaces": {
       "openFiles": []
