@@ -23,9 +23,9 @@
           "**/.*": true,
           "**/*.md": true
         },
-        "python.linting.enabled": false,
-        "python.linting.pylintEnabled": false,
-        "python.languageServer": "None"
+        "python.analysis.exclude": ["**"],
+        "python.analysis.ignore": ["**/*.ipynb"],
+        "python.languageServer": "Pylance"
       }
     }
   }
